@@ -4,4 +4,4 @@
 
 ## roadmap
 
-![Screenshot](docs/spark-series-roadmap.excalidraw)
+![Screenshot](docs/spark-series-roadmap.excalidraw.png)

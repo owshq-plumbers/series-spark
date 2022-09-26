@@ -1,0 +1,138 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1161" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HCLUnknownBlockType" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://www.w3.org/2000/svg" />
+          <option value="http://www.w3.org/2000/10/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema-instance" />
+          <option value="http://www.w3.org/2003/03/wsdl" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/xml/ns/" />
+          <option value="http://xmlns.jcp.org/xml/ns/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://20.85.8.77" />
+          <option value="http://35.238.22.202" />
+          <option value="http://$APP_IP" />
+          <option value="http://192.168.5.115" />
+          <option value="http://20.72.90.44" />
+          <option value="http://20.75.56.20" />
+          <option value="http://minio.deepstorage.svc.Cluster.local" />
+          <option value="http://headnodehost" />
+          <option value="http://20.85.58.174" />
+          <option value="http://52.184.202.80" />
+          <option value="http://schema-registry-cp-schema-registry" />
+          <option value="http://20.75.59.189" />
+          <option value="http://elasticsearch-master.logging.svc.cluster.local" />
+          <option value="http://iac_terraform_identity" />
+          <option value="http://20.94.0.255" />
+          <option value="http://52.167.30.194" />
+          <option value="http://20.75.64.31" />
+          <option value="http://20.190.209.14" />
+          <option value="http://192.168.0.100" />
+          <option value="http://20.72.108.23" />
+          <option value="http://10.0.109.4" />
+          <option value="http://172.20.10.2" />
+          <option value="http://json.schemastore.org" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E122" />
+          <option value="E115" />
+          <option value="W605" />
+          <option value="W292" />
+          <option value="E231" />
+          <option value="E402" />
+          <option value="E722" />
+          <option value="E116" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStatementEffectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pyspark-stubs==3.0.0.post3" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredStubPackages">
+        <list>
+          <option value="pyspark-stubs" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.show" />
+          <option value="datastore.yugabytedb.ycql.*" />
+          <option value="airflow.providers.microsoft" />
+          <option value="objects.agent.Agent.to_dict" />
+          <option value="dict.append" />
+          <option value="hyperspace.Hyperspace" />
+          <option value="hyperspace.IndexConfig" />
+          <option value="pyspark.sql.session.SparkSession.enableHyperspace" />
+          <option value="k8s.airflow.dags.edp_trigger.main.edp_trigger" />
+          <option value="azure.functions" />
+          <option value="skn.kafka.kafka_json.kafka" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
+      <shellcheck_settings value="SC2034,SC2164" />
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="requirements.InstalledPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

@@ -1,2 +1,1 @@
-# series-spark
-The Apache Spark Series
+# The Apache Spark Series

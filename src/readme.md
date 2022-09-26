@@ -23,12 +23,19 @@ brew info apache-spark
 brew install apache-spark
 brew reinstall apache-spark
 
+# force [conflict] fix
+brew link --overwrite apache-spark
+
+# different version?
+brew search apache-spark
+brew install eddies/spark-tap/apache-spark@2.4.6
+
 # loc
 /usr/local/Cellar/
 
 # test
 spark-shell
-spark-submit
+http://localhost:4040/jobs/
 ```
 
 ### install [pip] using [brew]

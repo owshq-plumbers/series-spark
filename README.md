@@ -4,4 +4,4 @@
 
 ## roadmap
 
-![Screenshot](https://github.com/owshq-plumbers/series-spark/blob/master/docs/spark-series-roadmap.excalidraw.png)
+![Screenshot](https://github.com/owshq-plumbers/series-spark/blob/master/docs/images/spark-series-roadmap.excalidraw.png)

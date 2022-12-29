@@ -1,10 +1,17 @@
-# import libraries
+"""
+SparkSession = Entry Point for DataFrame & DataSets
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
 
+SparkContext = Resilient Distributed DataSet
+from pyspark import SparkContext
+
+spark-submit /Users/luanmorenomaciel/GitHub/series-spark/src/pyspark/app.py
+"""
+
+# import libraries
 # init a spark session
+from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
-
 print(spark)
 
 # load data
@@ -31,7 +38,6 @@ df_device.selectExpr("manufacturer", "model", "platform as type").show()
 
 # filter data
 df_device.filter(df_device.manufacturer == "Xiamomi").show()
-df_device.filter(col("manufacturer") == "Xiamomi").show()
 
 # group data
 df_device.groupBy("manufacturer").count().show()

@@ -1,11 +1,11 @@
+import pymongo
 from pyspark.sql import SparkSession
 from pyspark import SparkConf
 
 spark = SparkSession \
     .builder \
     .appName("app-mongodb-collection") \
-    .config("spark.mongodb.read.connection.uri","mongodb+srv://admin:admin@mongodb-owshq-dev.ozne0pz.mongodb.net/?retryWrites=true&w=majority") \
-    .config("spark.mongodb.write.connection.uri","mongodb+srv://admin:admin@mongodb-owshq-dev.ozne0pz.mongodb.net/?retryWrites=true&w=majority") \
+    .config("spark.mongodb.connection.uri","mongodb+srv://admin:admin@mongodb-owshq-dev.ozne0pz.mongodb.net/?retryWrites=true&w=majority") \
     .getOrCreate()
 
 print(SparkConf().getAll())
